@@ -1,0 +1,24 @@
+.clearfix::after{
+    content:"";
+}
+body {
+    max-width:100%;
+    margin:0 auto;
+    background-image: url("../img/starring%20copy.png");
+    
+    
+}
+h1 {
+    font-family: 'Revalia', regular;
+    color:white;
+    font-size: 2.5em;
+    letter-spacing: .1em;
+    padding:4%;
+}
+video {
+  max-width: 100%;
+  width: 100%;
+  padding-top: -5%;
+
+}
+

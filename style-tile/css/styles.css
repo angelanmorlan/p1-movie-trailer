@@ -30,7 +30,7 @@ div.pattern-2{
     background-size:cover;
 }
 div.pattern-3{
-    background:url("../img/small-crackle-bright.png");
+    background:url("../img/starring.png");
 }
 div.pattern-4{
     background:url("../img/extra_clean_paper.png");
@@ -55,14 +55,41 @@ div.pattern- {
 
 
 /* Icons */
-div.icon-1{
+div.icon-1, .icon-2, .icon-3{
     border:none;
 }
 
 
 /* Navigation */
+a:link {
+    color:#25594d;
+    text-decoration: underline;
+}
+a:visited {
+    color:#ec171b;
+}
+a:hover {
+    color:#5a2a74;
+}
+button {
+    color:#173679;
+}
 
 
 /* Typography */
+h1 {
+    font-family: 'Revalia', regular;
+}
+h3 {
+    font-family: 'Lato', sans-serif;
+}
+p{
+   font-family: 'Ubuntu', sans-serif; 
+}
+
+
+
+
+
 
 
