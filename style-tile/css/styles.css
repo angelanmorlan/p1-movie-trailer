@@ -14,7 +14,7 @@ div.color-3{
     background:#173679;
 }
 div.color-4{
-    background:#5a2a74;
+    background:#331044;
 }
 div.color-5{
     background:#25594d;
@@ -25,19 +25,20 @@ div.pattern-1{
     background:url("https://www.textureking.com/content/img/stock/big/DSC_6229.JPG");
     background-size:cover;
 }
-div.pattern-2{
+/**div.pattern-2{
     background:url("https://www.textureking.com/content/img/stock/big/DSC_6090.JPG");
     background-size:cover;
-}
-div.pattern-3{
+}**/
+div.pattern-2{
     background:url("../img/starring.png");
 }
-div.pattern-4{
+/*div.pattern-4{
     background:url("../img/extra_clean_paper.png");
-}
+}*/
 
-div.pattern-5 {
+div.pattern-3 {
     background:url("../img/halftone.png");
+    border: none;
 }
 /**
 other pattern options
