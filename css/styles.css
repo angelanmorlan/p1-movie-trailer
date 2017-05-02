@@ -13,35 +13,24 @@ html,body {
 #container {
     height: 100%;
     position:relative;
+    padding:0;
 }
 #header {
     position:relative;
     background: url("../img/starring%20copy.png");
-    padding-top:5%;
-
-    
-}
-#body {
-    
-    
-    padding-bottom: 150px;
-    
-}
-#footer {
-    position:absolute;
-    bottom:0;
+    padding-top:50px;
+    max-width:100%;
     width:100%;
-    height: 150px;
-    background: url("../img/starring%20copy.png");
+
+    
+}
+#header video {
+    max-width: 100%;
+    width: 100%;
+
+
 }
 
-#footer h2 {
-    margin: 0;
-    color: #fbba22;
-    padding: 5%;
-    
-    
-}
 h1 {
     font-family: 'Revalia', regular;
     color:#fbba22;
@@ -53,14 +42,6 @@ h1::before {
     content: url(../img/iconmonstr-weather-116-240.png)" ";
 }
 
-
-
-video {
-    max-width: 100%;
-    width: 100%;
-
-
-}
 .plot img {
     
     width:100%;
@@ -94,7 +75,7 @@ h3, h2 {
 .plot {
     background-image: url(../img/halftone%20copy.png);
     position: relative;
-    padding: 6% 10% 6% 6%;
+    padding: 6% 10% 6% 10%;
 }
 
 
@@ -106,22 +87,28 @@ h3, h2 {
        
 }
 .cast {
-    position:absolute;
+    position:relative;
     background: linear-gradient(#6eaea6, transparent 350%),
                 #6eaea6 url("https://www.textureking.com/content/img/stock/big/DSC_6229.JPG");
+    padding: 6%;
     
     
 }
-.cast img {
+.cast>img {
     float:left;
-    width:40%;
-    padding: 3% 4% 0% 4%;
+    width:30%;
+    padding-top:2%;
+    padding-right:4%;
+    
+    
+    
     
 }
     
-.pratt,.zoe,.drax,.groot,.rocket {
 
-    padding: 1% 15% 5%% 4%;
+.cast p {
+    padding-right:30%;
+    padding-bottom:10%;
 }
 /*.cast h3 {
     position:relative;
@@ -129,6 +116,26 @@ h3, h2 {
 }*/
 span.line1 {
     color:#331044;
+}
+#footer {
+    position:relative;
+    bottom:0;
+    width:100%;
+    height: 200px;
+    background: url("../img/starring%20copy.png");
+    color: #fbba22;
+    padding-top:2%
+}
+
+h2 {
+    position:relative;
+    padding-left:5%;
+    
+        
+    
+    
+    
+    
 }
 
 
