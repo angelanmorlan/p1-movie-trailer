@@ -79,8 +79,8 @@ h3, h2 {
 }
 .cast {
     position:absolute;
-    background: linear-gradient(#25594d, transparent 350%),
-                #25594d url("https://www.textureking.com/content/img/stock/big/DSC_6229.JPG");
+    background: linear-gradient(#6eaea6, transparent 350%),
+                #6eaea6 url("https://www.textureking.com/content/img/stock/big/DSC_6229.JPG");
     
     
 }
